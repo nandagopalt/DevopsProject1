@@ -29,9 +29,9 @@ public class Number2Words {
 	    } 
 	 
 	    public static void main(String[] args) {
-	        new Number2Words().execute(); 
-	    	//String result = new Number2Words().new NumberWords().toWords(99);
-	    	//System.out.println(result);
+	        //new Number2Words().execute(); 
+	    	String result = new Number2Words().new NumberWords().toWords(999);
+	    	System.out.println(result);
 	    } 
 	    
 	    
