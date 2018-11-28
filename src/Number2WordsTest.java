@@ -10,6 +10,8 @@ public class Number2WordsTest {
 	public final void testNumber2Words() {
 		assertEquals("1 is ONE", "ONE", numberWords.toWords(1));
 		assertEquals("2 is TWO", "TWO", numberWords.toWords(2));
+		assertEquals("99 is NINETY NINE", "NINETY NINE", numberWords.toWords(99));
+		assertEquals("999 is NINE HUNDRED AND NINETY NINE", "NINE HUNDRED AND NINETY NINE", numberWords.toWords(999));
 	}
 	
 	@Test
