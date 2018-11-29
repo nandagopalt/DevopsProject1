@@ -1,7 +1,10 @@
+package com.testproject.test;
+
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import com.testproject.Number2Words;
 
 public class Number2WordsTest {
 	Number2Words.NumberWords numberWords = new Number2Words().new NumberWords();
